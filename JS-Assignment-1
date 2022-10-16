@@ -1,0 +1,64 @@
+// Question-1 ~ Installed
+// Question-2
+let name1 = "sheraz"
+alert("Hello " + name1 + " would you like to play cricket?")
+// Question-3
+let name2 = "Faraz"
+let lowerCase = (name2.toLowerCase())
+document.write(lowerCase);
+let upperCase = (name2.toUpperCase())
+document.write(upperCase);
+// Question-4 In HTML file
+{/* <body>
+<p>
+Virgil once said "fortune favors the bold"
+</p>
+
+</body> */}
+// Question-5
+let famousPerson = "Virgil"
+let message = "Fortune favors the bold"
+document.write(famousPerson + " once said, '" + message + "'.")
+// Question-6
+var name3 = "\t Sheraz \n Ahmed";
+console.log(name3);
+// Question-7 & 8
+console.log(5+3)
+console.log(12-4)
+console.log(4*2)
+console.log(16/2)
+// Question-9
+let favoriteNumber = 4;
+console.log("My favorite number is " + favoriteNumber);
+// Question-10
+// let famousPerson = "Virgil"
+// let message = "Fortune favors the bold"
+// document.write(famousPerson + " once said, '" + message + "'.") // This is a duplicate code. Comment assignment.
+// Question-11
+let friendsList = ["sheraz", "faraz", "saqib", "nomi", "saad"]
+console.log(friendsList[0]);
+console.log(friendsList[1]);
+console.log(friendsList[2]);
+console.log(friendsList[3]);
+console.log(friendsList[4]);
+// Question-12
+let msg = "you are my best friend" 
+alert("Hello " + friendsList[0] + " " + msg);
+alert("Hello " + friendsList[1] + " " + msg);
+alert("Hello " + friendsList[2] + " " + msg);
+alert("Hello " + friendsList[3] + " " + msg);
+alert("Hello " + friendsList[4] + " " + msg);
+// Question-13
+let transport = ["motorcycle", "car", "V8", "ferrari"]
+console.log("I would love to own " + transport[0]);
+console.log("I would love to own " + transport[1]);
+console.log("I would love to own " + transport[2]);
+console.log("I would love to own " + transport[3]);
+// Question-14
+let dinnerInvitation = ["Zaid", "Bunty", "Saad", "Sharjeel"]
+console.log("Dear " + dinnerInvitation[0] + ", you are invited to dinner at my place tomorrow.");
+console.log("Dear " + dinnerInvitation[1] + ", you are invited to dinner at my place tomorrow.");
+console.log("Dear " + dinnerInvitation[2] + ", you are invited to dinner at my place tomorrow.");
+console.log("Dear " + dinnerInvitation[3] + ", you are invited to dinner at my place tomorrow.");
+
+// I will complete the other half of the assignment soon InshAllah
